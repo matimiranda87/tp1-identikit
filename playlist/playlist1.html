@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="icon" href="../imagenes/icono-escudo-river.jpg" type="image/png">
+</head>
+<style>
+    *{
+            margin: 0;
+            padding: 0; 
+            box-sizing: content-box;
+            background-color: brown;
+    }
+  
+    .playlist-contenedor{
+        background-color: yellowgreen;
+        align-items: center;
+    }
+    .playlist-aside, 
+    .playlist-main{
+        display: inline-block;
+        vertical-align: top;
+        height: 80vh;
+    }
+    .playlist-aside{
+        background-color: aqua;
+        width: 24%;
+
+    }
+    .playlist-main{
+        background-color: blueviolet;
+        width: 74%;
+    }
+
+    .playlist-aside li{
+        list-style-type: none;
+    }
+</style>
+<body>
+    <ul id="nav">
+        <li><a href="../index.html"> Home</a></li>
+        <li><a href="../about.html">Sobre mi</a></li>
+        <li><a href="../tabla-escudos.html">Tablas</a></li>
+        <li><a href="../lista.html">Lista</a></li>
+        <li><a href="../lista.html">Trivia</a></li>
+        <li><a href="playlist.html">Playlist</a></li>
+    </ul>
+    <section class="playlist-contenedor">
+        <div class="playlist-aside">
+            <ul>
+                <li> <a href="#"> link 1</a></li>
+                <li><a href="#"> link 2</a></li>    
+                <li><a href="#"> link 3</a></li>                       
+                <li><a href="#"> link 4</a></li>    
+            </ul>
+        </div>
+        <div class="playlist-main">
+            <h1>titulo de mi playlist</h1>
+        </div>
+
+    </section>
+    
+</body>
+</html>
