@@ -4,9 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Open+Sans:wght@400;600&display=swap');
 *{
-            margin: 0;
-            padding: 0; 
-            box-sizing: content-box;
+  margin: 0;
+  padding: 0; 
+  box-sizing: content-box;
     }
 #nav{
     list-style: none;
@@ -986,8 +986,11 @@
   background-color: #16425b;
   color: white;
   text-align: center;
-  padding: 20px 10px;
-  margin-top: 5px;
+  padding: 25px 10px;
+  margin-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 .footer-contenido{
@@ -999,4 +1002,11 @@
 .footer p{
   margin: 6px 0;
   font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.footer strong{
+  font-weight: bold;
 }
